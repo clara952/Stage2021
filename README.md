@@ -22,7 +22,8 @@ Les **conteneurs** virtualise le système d'exploitation et non le matériel.
 En terme d'avantages on peut parler :
 * *Du poids* : Ne demandant pas la mise en place d'un second OS (au contraire d'une VM) et composé d'image de **conteneur** qui seront ensuite lancés, l'ensemble des conteneurs prends beaucoup moins de place qu'une VM en elle même. On peut ainsi gérer plus d'applications.
 * *De la vitesse de lancement* : Toujours avec le fait de ne pas imposer de second OS, le lancement se fait donc beaucoup plus rapidement.
-*  *De la réduction de consomation* : Ne prenant pas en compte la virtualisation, Docker permet de réduire la consommation de RAM.
+* *De la réduction de consomation* : Ne prenant pas en compte la virtualisation, Docker permet de réduire la consommation de RAM.
+* *Du partage* : A partir de Docker Hub, un registre commun aux utilisateurs de Docker, on peut récupérer d'autres conteneurs qui ont été partagé.
 
 
 ### Inconvénients

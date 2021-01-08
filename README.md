@@ -1,5 +1,12 @@
 # Stage chez Braincities
 
+## Table des matières
+* [Projet](https://github.com/clara952/Stage2021#projet)
+* [Test Docker](https://github.com/clara952/Stage2021#test-docker)
+* [Création conteneur Node.js](https://github.com/clara952/Stage2021#creation-conteneur-node.js)
+* [Liens](https://github.com/clara952/Stage2021#liens)
+
+
 ## Projet
 Documentation sur GitLab (voir lien plus bas) pour présenter le travail et les rechercher plus tard sur un site.
 Mise en place d'un projet pour toute la durée du stage.
@@ -35,6 +42,18 @@ On indique le port avec lequelle il va communiquer (5000) et le port exposé de 
 On lui demande de créer un volume dans **/usr/local/apache2/htdocs/** à partir des fichiers d'où on se trouve **$pwd\public-html** avec *-v $pwd\public-html:/usr/local/apache2/htdocs/*.
 
 Et enfin on lui indique l'image à partir de laquelle il va faire le conteneur : **nomImage**.
+
+## Création conteneur Node.js
+
+### Installation Node.js
+
+Commencez par installer [Node.js](https://nodejs.org/en/download/)
+
+Une fois fait lancé un terminal (PwerShell par exemple) et vérifiez la bonne installation avec :
+
+`node -v`
+
+`npm -v`
 
 ### Création du dossier de base Node.js
 
